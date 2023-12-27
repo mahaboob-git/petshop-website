@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+footer{
+    background:linear-gradient(rgba(0,0,0,0.40),rgba(243, 27, 27, 0.4));
+    color: rgb(0, 0, 0);  
+}
+footer>h1{
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+}
+footer>h1 span{
+    color:#ff006e;
+}
+footer>h5{
+    text-align: center;
+    font-size: 1rem;
+   padding: 10px 0;
+}
+.foot-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+hr{
+    width: 2px;
+    background-color: black;
+}
+.foot-content .about{
+    width: 300px;
+    margin-left: 40px;
+    text-align: start;
+}
+.foot-content .about h2{
+    margin-left: 30px;
+}
+.foot-content .about p{
+    margin-left: 30px;
+    margin-top: -10px;
+    font-weight: 400;
+}
+
+.foot-content .info li{
+    list-style: none;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: -50px;
+}
+.foot-content .info li i{
+    padding-right:10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.foot-content .info a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.foot-content .info h2{
+    margin-left: -20px;
+}
+.foot-content .social{
+    margin-right: 90px;
+}
+.foot-content .social li{
+    list-style-type: none;
+}
+.foot-link{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
+.foot-content .social i{
+    padding: 8px;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.foot-link a{
+    color: rgb(0, 0, 0);
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: rgb(255, 0, 191);
+}
+.fa-x-twitter:hover{
+    color: rgb(235, 235, 235);
+}
+.fa-google-plus-g:hover{
+    color: rgb(255, 43, 43)
+}
+.fa-youtube:hover{
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width:769px) {
+    
+    .foot-content .info{
+        margin-left: 90px;
+        margin-bottom: 20px;
+    }
+    .foot-content .social{
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .foot-content hr{
+        display: none;
+    }
+    footer>h5{
+        font-size: 0.8rem;
+        padding-top: 20px;
+    }
+}

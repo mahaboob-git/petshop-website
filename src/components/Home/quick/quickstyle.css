@@ -1,0 +1,165 @@
+.quick {
+    height: 95vh;
+    background: url('/src/components/assets/quick-bg-c2.jpg');
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.quick>h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding:30px;
+    text-shadow: 2px 2px 4px #ff006e;
+}
+
+.quick h2 span {
+    font-size: 3.5rem;
+    color: #ff006e;
+    text-shadow: none;
+}
+.content-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+    margin-top: 30px;
+}
+.form-container{
+   width: 450px;
+   border: 2px solid white;
+   text-align: center;
+   border-radius: 10px 50px;
+   backdrop-filter: blur(5px);
+}
+.form-container h3{
+    font-size: 2.2rem;
+    color: #ff006e;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.form-container h3 span{
+    color: #000000;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+   
+}
+.form-container form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 380px;
+    margin-bottom: 38px;
+}
+.form-container form ::placeholder{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+}
+.form-container form button{
+    background-color: transparent;
+    padding: 5px 80px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-top: -15px;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease-in-out;
+}
+.form-container form button:hover{
+    letter-spacing: 3px;
+}
+.address{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px 10px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.address h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #ff006e;
+}
+.address h3{
+    font-size: 2rem;
+    margin-right: 7em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.address h3 span{
+    color: #ff006e;
+}
+.address p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px;
+}
+.address i{
+    font-size: 1.3em;
+    padding-right:5px;
+    color: #ff006e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: blink 1.5s infinite;
+}
+@keyframes blink{
+    0%,100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width:769px) {
+    .quick {
+        background: none;
+        box-shadow: none;
+        margin-bottom: 27em;
+    }
+
+    .quick>h2 {
+        color: black;
+        margin-bottom: -30px;
+    }
+
+    .form-container {
+        background: linear-gradient(rgba(75, 75, 75, 0.4), rgba(68, 68, 68, 0.5)), url(/src/components/assets/quick-form-c.jpg);
+        background-size: cover;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+    .content-box{
+        gap: 20px;
+    }
+
+    .address {
+        background: linear-gradient(rgba(75, 75, 75, 0.4), rgba(68, 68, 68, 0.5)), url(/src/components/assets/quick-add-c.jpg);
+        background-size: cover;
+        margin-left: 10px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+}

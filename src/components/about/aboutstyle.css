@@ -1,0 +1,148 @@
+.main-about {
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+.about-why {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-why h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+.about-why h1 span {
+    font-size: 3rem;
+    color: #ff006e;
+}
+
+.why-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.why-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    background-color: #edf2f4;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    height: 420px;
+}
+
+.why-content:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.why-content h2 {
+    font-size: 1.5rem;
+    padding: 20px 5px;
+    color: red;
+}
+
+.why-content img {
+    width: 150px;
+    height: 150px;
+    padding-top: 15px;
+}
+
+.why-content p {
+    width: 220px;
+    text-align: justify;
+    margin-top: -15px;
+    line-height: 20px;
+}
+
+.why-content p a {
+    text-decoration: none;
+}
+
+.about-more {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.expertise {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.expertise-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.expertise-2 img{
+    width: 600px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.expertise img {
+    width: 600px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.exp-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.exp-content h1 span {
+    color: #ff006e;
+}
+
+
+
+@media screen and (max-width:769px){
+    .expertise img{
+        width: 450px;
+        height: 320px;
+    }
+    .expertise-2 img{
+        width: 450px;
+        height: 320px;
+    }
+    .exp-content{
+        width: 440px;
+    }
+  
+}

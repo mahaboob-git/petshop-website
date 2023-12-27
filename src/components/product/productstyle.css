@@ -1,0 +1,110 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.product-container>h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.product-container h1 span {
+    font-size: 3.5rem;
+    color:#ff006e;
+}
+
+.product {
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.pro-content {
+    width: 330px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    height: 570px;
+}
+
+.pro-content>p {
+    line-height: 22px;
+    text-align: center;
+}
+
+.pro-content>h3 {
+    font-size: 20px;
+    background-color: rgb(236, 236, 236);
+    width: 90%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding:3px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.pro-content>h2 {
+   font-size: 1.8rem;
+   margin-top: -10px;
+}
+
+.pro-content button {
+    padding: 5px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #353535;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.pro-content button:hover {
+    color: #ff006e;
+}
+
+.pro-content a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(255, 42, 42);
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.pro-content a:hover {
+    letter-spacing: 3px;
+}
+
+.pro-content img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    background-size: contain;
+}
+
+.pro-content img:hover {
+    transform: scale(1.1);
+}

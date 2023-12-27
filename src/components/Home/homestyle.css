@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('/src/components/assets/home6-c.jpg'); 
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.home-content h1 {
+    font-size: 6.3em;
+    color: rgb(255, 255, 255);
+    margin-top: -150px;
+    text-shadow: 2px 2px 4px #ff006e;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.home-content p {
+    font-size: 1em;
+    max-width: 900px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    line-height: 15px;
+}
+
+.home-btn {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+
+.home-btn:hover {
+    letter-spacing: 4px;
+    background: black;
+    color: #ff006e;
+    border: none;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(172, 172, 172);
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(#ff006e, rgb(141, 141, 180));
+}
+
+@media screen and (max-width:769px) {
+  
+    .home-content {
+        margin-top: 6rem;
+    }
+
+    .home-content h1 {
+        font-size: 4.5rem;
+        padding-bottom: 50px;
+    }
+    .home-content p{
+        margin-top: -40px;
+        margin-right: 20px;
+    }
+    
+}

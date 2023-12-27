@@ -1,0 +1,76 @@
+.top {
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.top h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.top h1 span {
+    font-size: 4rem;
+    color:#ff006e;
+}
+
+.top-sale {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.top-content {
+    width: 330px;
+    height: 520px;
+    background: #fcfafa;
+    border-radius: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    /* overflow: hidden; */
+}
+
+
+.top-sale img {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.top-sale img:hover {
+    transform: scale(1.2);
+}
+
+.top-sale h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background-color: #eeeeee;
+   text-align: center;
+   margin-top: -10px;
+}
+
+.top-content p {
+    text-align: center;
+}
+
+.top-sale a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #ff006e;
+    padding: 6px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.top-sale a:hover{
+    color: black; 
+}
