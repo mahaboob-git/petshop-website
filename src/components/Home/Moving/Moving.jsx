@@ -9,19 +9,19 @@ export const Moving = () => {
             <h1 data-aos="fade-up">Our <span>S</span>ocial Media Links</h1>
             <Marquee pauseOnHover speed={80}>
                 <div className="media">
-                    <img src={require('/Users/ELCOT/reactproject/OnlyDogs/src/components/assets/facebook.png')} alt="" className='facebook' />
+                    <img src={require('../../assets/facebook.png')} alt="" className='facebook' />
                     <a href="#"><h2>Facebook</h2></a>
                 </div>
                 <div className="media">
-                    <img src={require('/Users/ELCOT/reactproject/OnlyDogs/src/components/assets/youtube.png')} alt="" className='youtube' />
+                    <img src={require('../../assets/youtube.png')} alt="" className='youtube' />
                    <a href="#"> <h2>YouTube</h2></a>
                 </div>
                 <div className="media">
-                    <img src={require('/Users/ELCOT/reactproject/OnlyDogs/src/components/assets/x2-png.png')} alt="" className='x' />
+                    <img src={require('../../assets/x2-png.png')} alt="" className='x' />
                     <a href="#"><h2>X/Twitter</h2></a>
                 </div>
                 <div className="media">
-                    <img src={require('/Users/ELCOT/reactproject/OnlyDogs/src/components/assets/insta.png')} alt="" className='insta' />
+                    <img src={require('../../assets/insta.png')} alt="" className='insta' />
                    <a href="#"> <h2>Instagram</h2></a>
                 </div>
             </Marquee>
