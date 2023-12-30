@@ -9,10 +9,7 @@ export const Footer = () => {
                 <div className="foot-content">
                     <div className="about" data-aos="fade-up">
                         <h2>About us</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Distinctio quia vvoluptas necessitatibunsequatu.
-                            em ipsum dolor sit, amet consectetur adipisicing
-                            elit. Distinctio quia vvoluptas necessitat</p>
+                        <p>OnlyDogs is family owned and operated. We are known for our elite personal protection training and producing best dogs. We pride ourselves on producing healthy, athletic, and functional dogs with great temperaments for protection as well as family companions.</p>
                     </div>
                     <hr />
                     <div className="info" data-aos="fade-up">

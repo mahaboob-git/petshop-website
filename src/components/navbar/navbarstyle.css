@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-* {
-    scroll-behavior: smooth;
-}
+
 
 header {
     display: flex;
@@ -31,7 +29,7 @@ header.header-bg {
 
 .navlinks li {
     list-style: none;
-    margin-left: 40px;
+    margin-left: 40px; 
 }
 
 .navlinks li a {
@@ -52,7 +50,7 @@ header.header-bg {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
+   margin-left: 10px; 
 }
 
 .navlogo h1 {
@@ -72,14 +70,14 @@ header.header-bg {
     color: #000000;
     font-size: 40px;
     cursor: pointer;
-    padding-right: 25px;
+    margin-right: 10px;
 }
 
 .mobile {
     display: none;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:900px) {
     .navlinks ul {
         display: flex;
         flex-direction: column;

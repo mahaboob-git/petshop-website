@@ -9,18 +9,19 @@ import { Faq } from './components/faq/Faq';
 
 
 
+
+
 function App() {
   return (
     <>
-      <Navbar/> 
+      <Navbar/>  
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/product' element={<Product/>}></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='/faq' element={<Faq/>}></Route>
       </Routes>
-      <Footer/> 
-  
+      <Footer/>
     </>
   );
 }
