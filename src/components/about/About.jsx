@@ -15,27 +15,25 @@ export const About = () => {
             <div className="why-content">
               <img src={require('../assets/best.png')} alt="" data-aos="fade-up" />
               <h2 data-aos="fade-up">Best dog Breeders</h2>
-              <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, natus magni blanditiis quae, commodi veniam deleniti earum, explicabo corrupti temporibus distinctio dolores.
-                Magnam ut officiis error minima natus, possimus culpa! <a href="#">Read more</a></p>
+              <p data-aos="fade-up">We adhere to the highest standards when it comes to breeding. We only breed healthy, functional dogs with best possible temperaments for family companions and protectors
+                <a href="#">Read more</a></p>
             </div>
             <div className="why-content">
               <img src={require('../assets/guidence.png')} alt="" data-aos="fade-up" />
               <h2 data-aos="fade-up">Life time Guidence</h2>
-              <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, natus magni blanditiis quae, commodi veniam deleniti earum, explicabo corrupti temporibus distinctio dolores.
-                Magnam ut officiis error minima natus, possimus culpa! <a href="#">Read more</a></p>
+              <p data-aos="fade-up">We follow strict guidelines to ensure that our facilities and breeding practices are ethical and responsible.
+                Our puppies are raised in a loving and nurturing environment,<a href="#">Read more</a></p>
             </div>
             <div className="why-content">
               <img src={require('../assets/247.png')} alt="" data-aos="fade-up" />
               <h2 data-aos="fade-up">24/7 Customer support</h2>
-              <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, natus magni blanditiis quae, commodi veniam deleniti earum, explicabo corrupti temporibus distinctio dolores.
-                Magnam ut officiis error minima natus, possimus culpa! <a href="#">Read more</a></p>
+              <p data-aos="fade-up">We work closely with new owners to ensure that they have all the information and support they need to provide the best possible care for their new puppy <a href="#">Read more</a></p>
             </div>
 
             <div className="why-content">
               <img src={require('../assets/delivery.png')} alt="" data-aos="fade-up" />
               <h2 data-aos="fade-up">We deliver everywhere</h2>
-              <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, natus magni blanditiis quae, commodi veniam deleniti earum, explicabo corrupti temporibus distinctio dolores.
-                Magnam ut officiis error minima natus, possimus culpa! <a href="#">Read more</a></p>
+              <p data-aos="fade-up">We understand our best puppies are extremely sought after and take our screening process very seriously to ensure our puppies go to the best homes possible. <a href="#">Read more</a></p>
             </div>
           </div>
         </div>

@@ -10,7 +10,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-
 }
 
 .home-content {
@@ -77,9 +76,8 @@
 
 @media screen and (max-width:769px) {
     .home {
-        background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../assets/home-mob.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../assets/home-mob-c.jpg);
         background-size: cover;
-
     }
 
     .home-content {
@@ -87,15 +85,13 @@
     }
 
     .home-content h1 {
-        font-size: 4.5rem;
+        font-size: 4.1rem;
         padding-bottom: 50px;
-
     }
 
     .home-content p {
         margin-top: -40px;
         margin-right: 20px;
-
     }
 
 }

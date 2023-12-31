@@ -46,7 +46,7 @@
     border-radius: 10px;
     border: none;
     transition: all 0.3s ease-in-out;
-    height: 420px;
+    height: 380px;
 }
 
 .why-content:hover {
@@ -105,14 +105,8 @@
     margin-bottom: 40px;
 }
 
+.expertise img,
 .expertise-2 img {
-    width: 600px;
-    height: 350px;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.expertise img {
     width: 600px;
     height: 350px;
     background-size: cover;
@@ -145,7 +139,7 @@
 
     .expertise,
     .expertise-2 {
-        gap: 10px;
+        gap: 20px;
     }
 
     .exp-content {
@@ -163,8 +157,17 @@
         height: 250px;
     }
 
+    .expertise,
+    .expertise-2 {
+        gap: 0px;
+        margin-bottom: 10px;
+    }
+
     .exp-content {
         width: 390px;
     }
 
+    .why-container {
+        gap: 15px;
+    }
 }

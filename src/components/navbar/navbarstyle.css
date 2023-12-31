@@ -68,7 +68,7 @@ header.header-bg {
 }
 
 .mobile i {
-    color: #000000;
+    color: #ff006e;
     font-size: 40px;
     cursor: pointer;
     margin-right: 10px;
@@ -89,11 +89,11 @@ header.header-bg {
         right: -950px;
         width: 65%;
         height: 60%;
-        background: linear-gradient(rgba(90, 90, 90, 0.4), rgba(27, 27, 27, 0.4)), url(../assets/sidenav.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/sidenav.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         object-fit: contain;
-        padding: 80px 0 0 20px;
+        padding: 20px 0 0 20px;
         transition: 0.3s ease-in-out;
     }
 
@@ -111,6 +111,12 @@ header.header-bg {
 
     .navlinks li a {
         color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        transition: all ease-in;
+    }
+
+    .navlinks li a:hover {
+        color: #ff006e;
     }
 
     .navlogo h1 {
