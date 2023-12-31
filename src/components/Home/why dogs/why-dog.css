@@ -1,9 +1,4 @@
 .why {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 40px;
     margin-top: 30px;
 }
@@ -25,15 +20,15 @@
     height: 350px;
     width: 550px;
     border-radius: 5px;
+    padding: 15px;
 }
 
 .why-con {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 100px;
 }
 
 .why-con .points {
@@ -45,7 +40,7 @@
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
-    margin: 15px;
+    padding: 15px;
 }
 
 .why-con .points p span {
@@ -54,7 +49,7 @@
     font-weight: 700;
 }
 
-.why-con .points img {
+.paw-png {
     height: 35px;
     width: 35px;
 }
@@ -67,8 +62,21 @@
     color: #ff006e;
 }
 
-@media screen and (max-width:1214px) {
-    .why-con {
-        gap: 0px;
+@media screen and (max-width:769px) {
+    .why-con>img {
+        width: 350px;
+        height: 260px;
+    }
+
+    .why-con .points p {
+        line-height: 25px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .why-con>img {
+        width: 300px;
+        height: 210px;
     }
 }

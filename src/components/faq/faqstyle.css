@@ -1,54 +1,85 @@
-.faq-container{
+.faq-container {
     margin-top: 5em;
 }
-.faq h1{
+
+.faq h1 {
     text-align: center;
     font-size: 2.2rem;
     font-weight: 600;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.faq h1 .first{
+
+.faq h1 .first {
     color: #ff006e;
     font-size: 2.8rem;
 }
-.faq h1 .second{
+
+.faq h1 .second {
     color: #335c67;
     text-shadow: none;
     font-weight: 700;
     letter-spacing: 3px;
 }
-.faq>p{
+
+.faq>p {
     text-align: center;
     margin-top: -5px;
 }
 
-.item{
+.item {
     margin-bottom: 25px;
     font-size: 1rem;
     margin-left: 200px;
     margin-right: 200px;
 }
-.accordion .item .accordion-header button{
+
+.accordion .item .accordion-header button {
     font-size: 1.2rem;
     box-shadow: none;
     padding: 15px auto;
-    /*background-color: #edf2f4;*/ 
 }
-.accordion .item{
+
+.accordion .item {
     box-shadow: 2px 2px 4px rgba(73, 73, 73, 0.5);
 }
 
-@media screen and (max-width:769px){
-    .faq h1{
+
+@media screen and (max-width:769px) {
+    .faq h1 {
         font-size: 1.5rem;
     }
-    .faq h1 .first{
+
+    .faq h1 .first {
         font-size: 1.9rem;
     }
-    .item{
+
+    .item {
         margin: 5px 13px;
     }
-    .faq{
+
+    .faq {
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .faq h1 {
+        font-size: 1.3rem;
+    }
+
+    .faq h1 .first {
+        font-size: 1.5rem;
+    }
+
+    .accordion .item .accordion-header button {
+        font-size: 1rem;
+    }
+
+    .faq>p {
+        font-size: 0.8rem;
+    }
+
+    .faq h1 .second {
+        letter-spacing: 1px;
     }
 }

@@ -15,7 +15,7 @@
 
 .product-container h1 span {
     font-size: 3.5rem;
-    color:#ff006e;
+    color: #ff006e;
 }
 
 .product {
@@ -53,14 +53,14 @@
     width: 90%;
     text-transform: uppercase;
     border-radius: 5px;
-    padding:3px;
+    padding: 3px;
     margin-top: 5px;
     font-weight: 700;
 }
 
 .pro-content>h2 {
-   font-size: 1.8rem;
-   margin-top: -10px;
+    font-size: 1.8rem;
+    margin-top: -10px;
 }
 
 .pro-content button {
@@ -107,4 +107,14 @@
 
 .pro-content img:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width:480px) {
+    .product-container h1 {
+        font-size: 1.7rem;
+    }
+
+    .product-container h1 span {
+        font-size: 2rem;
+    }
 }

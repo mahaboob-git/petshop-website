@@ -14,7 +14,7 @@
 
 .top h1 span {
     font-size: 4rem;
-    color:#ff006e;
+    color: #ff006e;
 }
 
 .top-sale {
@@ -33,7 +33,8 @@
     background: #fcfafa;
     border-radius: 5%;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-    /* overflow: hidden; */
+    padding: 8px;
+    overflow: hidden;
 }
 
 
@@ -53,8 +54,8 @@
     text-transform: uppercase;
     font-size: 1.5rem;
     background-color: #eeeeee;
-   text-align: center;
-   margin-top: -10px;
+    text-align: center;
+    margin-top: -10px;
 }
 
 .top-content p {
@@ -71,6 +72,19 @@
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
-.top-sale a:hover{
-    color: black; 
+
+.top-sale a:hover {
+    color: black;
+}
+
+@media screen and (max-width:400px) {
+    .top-sale {
+        gap: 10px;
+    }
+
+    .top-content {
+        width: 300px;
+        height: 510px;
+    }
+
 }

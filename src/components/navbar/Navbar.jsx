@@ -24,7 +24,7 @@ export const Navbar = () => {
                     <h1>Only<span>Dogs</span></h1>
                 </div>
                 <div className="navlinks" onClick={navclick}>
-                    <ul className={click ? "active" : ".navlinks"} >                      
+                    <ul className={click ? "active" : ".navlinks"} >
                         <li><Link to='/'>HOME</Link></li>
                         <li><Link to='/about'>ABOUT US</Link></li>
                         <li><Link to="/product">AVAILABLE PUPPIES</Link></li>
@@ -34,7 +34,7 @@ export const Navbar = () => {
                 <div className="mobile" onClick={handleclick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-            </header>         
+            </header>
         </>
     )
 }

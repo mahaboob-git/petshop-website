@@ -30,7 +30,7 @@ export const About = () => {
               <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, natus magni blanditiis quae, commodi veniam deleniti earum, explicabo corrupti temporibus distinctio dolores.
                 Magnam ut officiis error minima natus, possimus culpa! <a href="#">Read more</a></p>
             </div>
-            
+
             <div className="why-content">
               <img src={require('../assets/delivery.png')} alt="" data-aos="fade-up" />
               <h2 data-aos="fade-up">We deliver everywhere</h2>
@@ -67,8 +67,8 @@ export const About = () => {
         </div>
       </section>
 
-      <Contact/>
-      <Moving/>
+      <Contact />
+      <Moving />
 
     </>
   )

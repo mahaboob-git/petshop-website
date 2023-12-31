@@ -2,9 +2,9 @@ import React from 'react';
 import '../footer/footerstyle.css';
 
 export const Footer = () => {
-  return (
-    <>
-     <footer>
+    return (
+        <>
+            <footer>
                 <h1 data-aos="fade-up">Only<span>Dogs</span></h1>
                 <div className="foot-content">
                     <div className="about" data-aos="fade-up">
@@ -24,16 +24,16 @@ export const Footer = () => {
                     <div className="social" data-aos="fade-up">
                         <h2>Quick links</h2>
                         <div className="foot-link">
-                        <li><a href="#" ><i className='fa-brands fa-facebook' title='Facebook'></i></a></li>
-                        <li><a href="#" ><i className='fa-brands fa-instagram' title='Instagram'></i></a></li>
-                        <li><a href="#" ><i className='fa-brands fa-x-twitter' title='X/Twitter'></i></a></li>
-                        <li><a href="#" ><i className='fa-brands fa-google-plus-g' title='Google+'></i></a></li>
-                        <li><a href="#" ><i className='fa-brands fa-youtube' title='Youtube'></i></a></li>
+                            <li><a href="#" ><i className='fa-brands fa-facebook' title='Facebook'></i></a></li>
+                            <li><a href="#" ><i className='fa-brands fa-instagram' title='Instagram'></i></a></li>
+                            <li><a href="#" ><i className='fa-brands fa-x-twitter' title='X/Twitter'></i></a></li>
+                            <li><a href="#" ><i className='fa-brands fa-google-plus-g' title='Google+'></i></a></li>
+                            <li><a href="#" ><i className='fa-brands fa-youtube' title='Youtube'></i></a></li>
                         </div>
                     </div>
                 </div>
                 <h5>Developed and designed by Mahaboob </h5>
             </footer>
-    </>
-  )
+        </>
+    )
 }

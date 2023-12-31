@@ -12,6 +12,7 @@
 }
 
 .about-why h1 {
+    text-align: center;
     font-size: 2.5rem;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -93,7 +94,8 @@
     gap: 40px;
     margin-bottom: 40px;
 }
-.expertise-2{
+
+.expertise-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -102,7 +104,8 @@
     gap: 40px;
     margin-bottom: 40px;
 }
-.expertise-2 img{
+
+.expertise-2 img {
     width: 600px;
     height: 350px;
     background-size: cover;
@@ -131,18 +134,37 @@
 }
 
 
+@media screen and (max-width:769px) {
 
-@media screen and (max-width:769px){
-    .expertise img{
+    .expertise img,
+    .expertise-2 img {
         width: 450px;
         height: 320px;
+        padding: 8px;
     }
-    .expertise-2 img{
-        width: 450px;
-        height: 320px;
+
+    .expertise,
+    .expertise-2 {
+        gap: 10px;
     }
-    .exp-content{
+
+    .exp-content {
         width: 440px;
+        padding: 5px;
     }
-  
+
+}
+
+@media screen and (max-width:500px) {
+
+    .expertise img,
+    .expertise-2 img {
+        width: 420px;
+        height: 250px;
+    }
+
+    .exp-content {
+        width: 400px;
+    }
+
 }

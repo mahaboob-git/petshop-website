@@ -1,5 +1,5 @@
 .quick {
-    height: 100vh;
+
     background: url('/src/components/assets/quick-bg-c2.jpg');
     background-size: cover;
     margin-bottom: 15px;
@@ -26,7 +26,8 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 120px;
 }
 
 .form-container {
@@ -35,7 +36,8 @@
     text-align: center;
     border-radius: 10px 50px;
     backdrop-filter: blur(5px);
-    margin: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
 .form-container h3 {
@@ -100,7 +102,8 @@
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(5px);
-    margin: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
 .address h2 {
@@ -151,9 +154,50 @@
     }
 }
 
-@media screen and (max-width:514px) {
-    .form-container form input {
-        width: 300px;
+@media screen and (max-width:769px) {
+    .content-box {
+        gap: 10px;
     }
 
+    .address {
+        border-radius: 10px 50px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .form-container,
+    .address {
+        width: 350px;
+    }
+
+    .form-container form input {
+        width: 250px;
+    }
+
+    .form-container form button {
+        font-size: 1rem;
+    }
+
+    .form-container form ::placeholder {
+        font-size: 1.3rem;
+    }
+
+    .address h3 {
+        margin-right: 4em;
+        margin-bottom: 10px;
+    }
+
+    .address h2 {
+        margin-bottom: 10px;
+    }
+
+    .address p {
+        line-height: 40px;
+    }
+
+    .content-box {
+        padding: 5px;
+    }
 }

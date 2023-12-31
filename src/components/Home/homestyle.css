@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
 .home {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('/src/components/assets/home6-c.jpg'); 
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('/src/components/assets/home6-c.jpg');
     background-size: cover;
     min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     position: relative;
-   
+
 }
 
 .home-content {
     text-align: center;
-    margin-top: -20px;  
+    margin-top: -20px;
+    position: absolute;
 }
 
 .home-content h1 {
@@ -56,27 +58,30 @@
     border: none;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     background: #ffffff;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background: rgb(172, 172, 172);
     border-radius: 50px;
 }
-::-webkit-scrollbar-thumb:hover{
-    background:linear-gradient(#ff006e, rgb(141, 141, 180));
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#ff006e, rgb(141, 141, 180));
 }
 
 @media screen and (max-width:769px) {
-    .home{
-        background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(../assets/home-mob.jpg);
-        background-size: cover; 
+    .home {
+        background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../assets/home-mob.jpg);
+        background-size: cover;
 
     }
-  
+
     .home-content {
         margin-top: 6rem;
     }
@@ -84,12 +89,13 @@
     .home-content h1 {
         font-size: 4.5rem;
         padding-bottom: 50px;
-        
+
     }
-    .home-content p{
+
+    .home-content p {
         margin-top: -40px;
         margin-right: 20px;
-        
+
     }
-    
+
 }
