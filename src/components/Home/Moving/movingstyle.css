@@ -30,6 +30,7 @@
     justify-content: center;
     margin-left: 10em;
     margin-bottom: 10px;
+    z-index: 1;
 }
 
 .media a {
