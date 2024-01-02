@@ -7,19 +7,21 @@ import { BrowserRouter } from 'react-router-dom';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
+import { Scroll } from './components/Scroll';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
+      <Scroll />
+      <App />
     </BrowserRouter>
-    </React.StrictMode>
+  </React.StrictMode>
 );
 AOS.init({
-  offset:0,
-  duration:1000,
+  offset: 0,
+  duration: 1000,
 });
 
 // If you want to start measuring performance in your app, pass a function

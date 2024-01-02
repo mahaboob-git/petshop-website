@@ -76,7 +76,15 @@
 
 @media screen and (max-width:480px) {
     .why-con>img {
-        width: 350px;
+        width: 370px;
         height: 230px;
+    }
+
+    .why-con .points p {
+        font-size: 14px;
+    }
+
+    .why-con .points p span {
+        font-size: 16px;
     }
 }
