@@ -8,7 +8,7 @@ export const Quick = () => {
         <div className="quick">
             <h2 data-aos="fade-up">For <span>Q</span>uick Enquiry</h2>
             <div className="content-box">
-                <div className="form-container" data-aos="fade-up" >
+                <div className="form-container" data-aos="fade-right" >
                     <h3>GET <span><Typed strings={['STARTED!']}
                         typeSpeed={50}
                         backSpeed={100}
@@ -25,7 +25,7 @@ export const Quick = () => {
                         <button type="submit">ENQUIRE NOW</button>
                     </form>
                 </div>
-                <div className="address" data-aos="fade-up">
+                <div className="address" data-aos="fade-left">
                     <h2><i class="fa-solid fa-location-dot"></i> LOCATION</h2>
                     <h3>Only<span>Dogs</span></h3>
                     <p>EAST COAST ROAD<br />

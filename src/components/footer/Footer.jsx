@@ -5,9 +5,9 @@ export const Footer = () => {
     return (
         <>
             <footer>
-                <h1 data-aos="fade-up">Only<span>Dogs</span></h1>
+                <h1 data-aos="fade-down">Only<span>Dogs</span></h1>
                 <div className="foot-content">
-                    <div className="about" data-aos="fade-up">
+                    <div className="about" data-aos="fade-right">
                         <h2>About us</h2>
                         <p>OnlyDogs is family owned and operated. We are known for our elite personal protection training and producing best dogs. We pride ourselves on producing healthy, athletic, and functional dogs with great temperaments for protection as well as family companions.</p>
                     </div>
@@ -21,7 +21,7 @@ export const Footer = () => {
                         </ul>
                     </div>
                     <hr />
-                    <div className="social" data-aos="fade-up">
+                    <div className="social" data-aos="fade-left">
                         <h2>Quick links</h2>
                         <div className="foot-link">
                             <li><a href="#" ><i className='fa-brands fa-facebook' title='Facebook'></i></a></li>

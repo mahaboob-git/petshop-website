@@ -6,8 +6,8 @@ export const Why = () => {
         <section className='why'>
             <h1 data-aos="fade-up">Why <span>D</span>ogs</h1>
             <div className="why-con"  >
-                <img src={require('../../assets/why2-c.jpg')} data-aos="fade-up" alt="" />
-                <div className="points" data-aos="fade-up">
+                <img src={require('../../assets/why2-c.jpg')} data-aos="fade-right" alt="" />
+                <div className="points" data-aos="fade-left">
                     <p>
                         <img src={require('../../assets/paw.png')} className='paw-png' alt="" />
                         <span>D</span>ogs can be there for you even when people can't. They offer unconditional love, emotional support, and constant cuddles that help stave off social isolation. <span>A</span> small Australian study discovered that dog ownership can reduce loneliness.
